@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeDiary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1 class="app-title">VibeDiary</h1>
+    <div class="header-controls">
+      <span class="current-date" id="currentDateDisplay"></span>
+      <div class="date-nav">
+        <button type="button" class="nav-btn" id="prevDayBtn" title="Предыдущий день">‹</button>
+        <input type="date" class="date-picker" id="datePicker">
+        <button type="button" class="nav-btn" id="nextDayBtn" title="Следующий день">›</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="board" id="board"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
